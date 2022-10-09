@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>Check your BMI</title>
+		<link rel="stylesheet" type="text/css" href="./style/style.css">
+		<link href="./style/bootstrap.css" rel="stylesheet">
+	</head>
+	<body>
+		<div>
+			<div>
+				<h1 class="title">Check your BMI</h1>
+				<h6 class="by">by Paulus Bimo</h6>
+				<h4 class="description">Masukan tinggi badan dan berat badan anda untuk mengecek BMI anda</h4>
+				<p class="formtext">Berat badan (kg)</p>
+				<p><input type="text" placeholder="Masukan berat badan anda" id="ipt_b"></p>
+				<p class="formtext">Tinggi badan (cm)</p>
+				<p><input type="text" placeholder="Masukan tinggi badan anda" id="ipt_t"></p>
+				<p><button class="btn btn-success" onclick="hitung()">Hitung BMI</button></p>
+				<p id="bmi" class="result"></p>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="programBMI.js"></script>
+	</body>
+</html>

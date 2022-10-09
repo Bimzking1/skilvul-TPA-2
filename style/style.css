@@ -1,0 +1,59 @@
+div	{
+	margin: auto ;
+	width: 600px;
+	margin-top: 80px;
+}
+
+input[type=text]{
+	padding: 10px;
+	width: 100%;
+	border-style: solid;
+	border-color: #6d6e6a;
+	font-size: 16px;
+}
+
+input[type=text]:disabled{
+	background-color: white;
+}
+
+button {
+	width: 30%;
+	height: 40px;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Classes */
+
+.titleContainer{
+	display: flex;
+	flex-direction: row;
+}
+
+.title{
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.by{
+	font-size: 16px;
+	font-style: italic;
+}
+
+.description{
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.formtext{
+	font-weight: 700;
+}
+
+.result{
+	font-size: 25px;
+	font-weight: 700;
+	margin-top: 40px;
+}
